@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@unocss/nuxt",
     "@morev/vue-transitions/nuxt",
+    "nuxt-anchorscroll",
   ],
   devtools: {
     enabled: true,

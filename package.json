@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "@nuxtjs/seo": "^2.0.0-rc.8",
-    "@unocss/nuxt": "^0.58.5"
+    "@unocss/nuxt": "^0.58.5",
+    "nuxt-anchorscroll": "^1.0.3"
   },
   "trustedDependencies": [
     "@morev/vue-transitions"

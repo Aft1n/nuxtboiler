@@ -1,6 +1,16 @@
 <template>
-  <div>
-    <NuxtWelcome />
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
+
+<script setup>
+useSchemaOrg([
+  defineWebPage({
+    name: "Index",
+  }),
+  defineWebSite({
+    name: "MyWebsite.com",
+  }),
+]);
+</script>
